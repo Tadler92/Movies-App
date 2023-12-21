@@ -1,0 +1,88 @@
+body {
+  background-color: orangered;
+}
+
+form {
+  position: relative;
+  top: 15rem;
+  left: 25%;
+}
+
+table {
+  margin-top: 10px;
+  position: relative;
+  top: 15rem;
+  left: 25%;
+  table-layout: fixed;
+  width: 480px;
+  border-collapse: collapse;
+  /* border-spacing: 0; */
+}
+
+td {
+  /* padding-left: 10px; */
+  text-align: center;
+}
+
+#title-column {
+  width: 300px;
+}
+
+#rating-column {
+  width: 80px;
+}
+
+#button-column {
+  width: 80px;
+}
+
+#submit-button {
+  background-color: lightseagreen;
+  height: 30px;
+  width: 80px;
+  border-radius: 15px;
+  border: 1px solid white;
+}
+
+button {
+  background-color: lightcoral;
+  border-radius: 15px;
+  border: 1px solid white;
+}
+
+input {
+  height: 25px;
+}
+
+#movie-title {
+  width: 300px;
+}
+
+#movie-rating {
+  width: 80px;
+}
+
+
+
+.sortable {
+  cursor: pointer;
+}
+
+.sortable .th-ascend::after {
+  content: "\25b4";
+}
+
+.sortable .th-descend::after {
+  content: "\25be";
+}
+
+.sortable .th-ascend::after,
+.sortable .th-descend::after {
+  margin-left: 5px;
+}
+
+/* Below will shade the background of the table header to be slightly darker */
+.sortable .th-ascend,
+.sortable .th-descend {
+  background: rgba(0, 0, 0, 0.1);
+}
