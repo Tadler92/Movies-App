@@ -1,5 +1,13 @@
 body {
-  background-color: orangered;
+  background-color: rgb(53, 53, 53);
+  color: beige;
+}
+
+h1 {
+  display: inline-block;
+  position: relative;
+  left: 40%;
+  right: 40%;
 }
 
 form {
@@ -16,12 +24,18 @@ table {
   table-layout: fixed;
   width: 480px;
   border-collapse: collapse;
-  /* border-spacing: 0; */
+  /* border-spacing: 5px; */
 }
+
+/* tr {
+  margin-bottom: 5px;
+} */
 
 td {
   /* padding-left: 10px; */
   text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 #title-column {
@@ -46,6 +60,8 @@ td {
 
 button {
   background-color: lightcoral;
+  /* width: 70px; */
+  margin-left: 10px;
   border-radius: 15px;
   border: 1px solid white;
 }
