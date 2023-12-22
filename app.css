@@ -6,7 +6,7 @@ body {
 h1 {
   display: inline-block;
   position: relative;
-  left: 50%;
+  left: 40%;
   right: 40%;
 }
 
@@ -32,24 +32,24 @@ table {
 @media (max-width: 800px) {
   form {
     position: relative;
-    left: 32%;
+    left: 22%;
   }
 
   table {
     position: relative;
-    left: 32%;
+    left: 22%;
   }
 }
 
 @media (min-width: 801px) {
   form {
     position: relative;
-    left: 42%;
+    left: 32%;
   }
 
   table {
     position: relative;
-    left: 42%;
+    left: 32%;
   }
 }
 
